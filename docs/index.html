@@ -25,8 +25,6 @@
     <div class="container">
         <a class="navbar-brand fw-bold" href="#">🌾 Smart Harvest</a>
         <div>
-            <a class="btn btn-outline-success me-2" href="#">Home</a>
-            <a class="btn btn-outline-success me-2" href="#">Dashboard</a>
             <a class="btn btn-success" href="#signup">Register</a>
         </div>
     </div>
@@ -213,17 +211,23 @@
         <h2 class="mb-4">Join Smart Harvest Today</h2>
         <p class="lead mb-4">Register now to access crop insights and smart decisions.</p>
 
-        <form class="form-subscribe mx-auto" style="max-width: 500px;">
-            <div class="row g-2">
-                <div class="col-md-8">
-                    <input class="form-control form-control-lg" 
-                           type="email" placeholder="Enter your email" required>
-                </div>
-                <div class="col-md-4 d-grid">
-                    <button class="btn btn-light btn-lg" type="submit">Sign Up</button>
-                </div>
-            </div>
-        </form>
+       <form action="https://formsubmit.co/smartharvestlk@gmail.com" method="POST" class="form-subscribe mx-auto" style="max-width: 500px;">
+    
+    <div class="row g-2">
+        <div class="col-md-8">
+            <input class="form-control form-control-lg" 
+                   type="email" name="email" placeholder="Enter your email" required>
+        </div>
+        <div class="col-md-4 d-grid">
+            <button class="btn btn-light btn-lg" type="submit">Sign Up</button>
+        </div>
+    </div>
+
+    <!-- Hidden settings -->
+    <input type="hidden" name="_subject" value="New Smart Harvest Signup!">
+    <input type="hidden" name="_captcha" value="false">
+
+</form>
     </div>
 </section>
 
